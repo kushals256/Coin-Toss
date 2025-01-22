@@ -30,31 +30,16 @@ A vibrant and interactive coin toss game with , smooth animations, and dynamic r
 
     Open index.html in your browser to start the game.
 
-🎮 How to Play
+---
 
-    Click the Flip the Coin button.
-    Watch the coin spin with a 3D animation.
-    See if it lands on Heads or Tails and enjoy the result!
+## 🎮 How to Play
 
-🌟 Contributing
+- Click the Flip the Coin button.
+- Watch the coin spin with a 3D animation.
+- See if it lands on Heads or Tails and enjoy the result!
 
-Contributions are welcome!
+---
 
-    Fork the repository.
-    Create a new branch:
+## 📜 License
 
-git checkout -b feature-name
-
-Commit your changes:
-
-git commit -m "Add a new feature"
-
-Push to the branch:
-
-    git push origin feature-name
-
-    Open a pull request.
-
-📜 License
-
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
