@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, #1a1a2e, #16213e);
+    color: #fff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  /*Header */
+  .neon-text {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #ff0080, 0 0 15px #ff0080, 0 0 30px #ff0080, 0 0 50px #ff00ff;
+    margin-bottom: 30px;
+  }
+  
+  /* Coin*/
+  .coin-display {
+    margin: 40px auto;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    perspective: 1000px;
+  }
+  
+  .coin {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0);
+    transition: transform 2s ease-out;
+  }
+  
+  .coin.flip {
+    transform: rotateY(1440deg);
+  }
+  
+  .coin-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  
+  #heads {
+    background: linear-gradient(135deg, #00ff85, #0080ff);
+  }
+  
+  #tails {
+    background: linear-gradient(135deg, #ff4d4d, #ff0080);
+    transform: rotateY(180deg);
+  }
+  
+  /* Button */
+  .glow-button {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #ff00ff, #00ff85);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glow-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #ff00ff, 0 0 40px #00ff85;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #00ff85;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00ff85, 0 0 20px #00ff85;
+  }
+  
