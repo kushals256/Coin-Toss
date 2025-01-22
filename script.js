@@ -16,11 +16,11 @@ document.getElementById("toss-button").addEventListener("click", function () {
       // result
       if (isHeads) {
         coinElement.style.transform = "rotateY(0)";
-        resultElement.textContent = "🎉 It's Heads! You won!";
+        resultElement.textContent = "It's Heads!";
         resultElement.style.color = "#00ff85";
       } else {
         coinElement.style.transform = "rotateY(180deg)";
-        resultElement.textContent = "💔 It's Tails! You lost!";
+        resultElement.textContent = "It's Tails!";
         resultElement.style.color = "#ff4d4d";
       }
     }, 2000);
